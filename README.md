@@ -21,3 +21,6 @@ This project processes raw genomic variant data (simulating the NIH ClinVar data
 2. Install the required dependencies:
    ```bash
    pip install pandas matplotlib seaborn
+
+python analyzer.py --file clinvar_sample.vcf
+python analyzer.py --file clinvar_sample.vcf --gene BRCA1
